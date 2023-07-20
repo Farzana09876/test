@@ -1,0 +1,272 @@
+h1
+ {
+   text-align: center;
+   color:black;
+ }
+
+a
+ {
+    text-decoration: none;
+    font-family: impact;
+    padding-right: 50px;
+    text-align: center;
+ }
+
+ a:hover
+  {
+    color: darksalmon;
+  }
+
+.body
+  {
+    background-color:cornsilk;
+  }
+
+.logo
+   {
+      width: 20%;
+      height: 50px;
+      background-color: bisque;
+      float: left;
+   }
+
+.header
+   {
+       width: 80%;
+       height: 50px;
+       background-color:beige;
+       float: left;
+   }
+
+   * {box-sizing:border-box}
+
+   /* Slideshow container */
+   .slideshow-container {
+     max-width: 50px;
+     position: relative;
+     margin: auto;
+   }
+   
+   /* Hide the images by default */
+   .mySlides {
+     display: none;
+   }
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     margin-top: -22px;
+     padding: 16px;
+     color: white;
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   /* Position the "next button" to the right */
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+   /* On hover, add a black background color with a little bit see-through */
+   .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.8);
+   }
+   
+   /* Caption text */
+   .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+   }
+   
+   /* Number text (1/3 etc) */
+   .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+   }
+   
+   /* The dots/bullets/indicators */
+   .dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+   }
+   
+   .active, .dot:hover {
+     background-color: #717171;
+   }
+   
+   /* Fading animation */
+   .fade {
+     animation-name: fade;
+     animation-duration: 1.5s;
+   }
+   
+   @keyframes fade {
+     from {opacity: .4}
+     to {opacity: 1}
+   }
+
+  
+.box1
+  {
+    width: 24.4%;
+    height: 300px;
+    background-color:antiquewhite;
+    float: left;
+  }
+
+.box2
+  {
+    width: 24.4%;
+    height: 300px;
+    background-color:peachpuff;
+    float: left;
+  }
+
+.box3
+  {
+    width: 24.4%;
+    height: 300px;
+    background-color:antiquewhite;
+    float: left;
+  }
+
+.box4
+  {
+    width: 24.4%;
+    height: 300px;
+    background-color:peachpuff;
+    float: left;
+  }
+
+table,tr,td,th
+  {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  table
+  {
+    width: 550px;
+  }
+
+td
+  {
+    padding: 10px;
+  }
+
+tr
+  {
+    background-color:mistyrose;
+  }
+
+th
+  {
+    padding: 5px;
+    background-color:cornflowerblue;
+    color: cornsilk;
+  }
+
+tr:nth-child(even)
+  {
+    background-color: hotpink;
+  }
+  
+tr:hover
+  {
+    background-color: orchid;
+  }  
+
+p
+  {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+.sktpm,
+.smktpb,
+.kmpp,
+.uitm {
+  width: 25%;
+  height: 30px;
+  background-color: bisque;
+  float: left;
+  margin-right: 1%;
+}
+
+   .myphoto,
+   .bakso,
+   .membaca,
+   .teacher{
+      width: 10%;
+      max-width: 100px;
+      height: auto;
+      background-color: bisque;
+      float: center;
+   }
+  
+  img {
+   transition: transform 0.3s ease;
+  }
+  img:hover {
+   transform: scale(1.2);
+  }
+
+   
+.family,
+.family2,
+.family3,
+.friend1,
+.friend2,
+.friend3,
+.friend4,
+.friend5{
+  width: 25%;
+  height: 30px;
+  background-color: bisque;
+  float: left;
+  margin-right: 1%; 
+} 
+
+.Librarian,
+.sispa,
+.survival,
+.srn{
+  width: 25%;
+  height: 30px;
+  background-color: bisque;
+  float: left;
+  margin-right: 1%; 
+} 
+
+.phone,
+.email,
+.instagram,
+.facebook{
+  width: 25%;
+  height: 30px;
+  background-color: bisque;
+  float: left;
+  margin-right: 1%; 
+}  
+
